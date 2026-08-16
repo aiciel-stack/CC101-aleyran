@@ -1,4 +1,4 @@
-#CCM101-aleyran
+CCM101-aleyran
 Cloud Computing Portfolio
 
 Hi! I’m Aiciel Kate Ann Leyran, a student in CCM101 – Cloud Computing at the University of Eastern Pangasinan.
