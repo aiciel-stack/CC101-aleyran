@@ -1,22 +1,50 @@
+# Laboratory Activity 2: Build the Cloud Infrastructure Blueprint
 
-# Mission Reflection
+## Mission Overview
+This laboratory activity simulates the planning phase of a cloud deployment for a fictional company, CloudNova Technologies. The mission was to investigate a Linux server environment (provided via KillerCoda), identify its infrastructure components, compare major public cloud providers, and produce professional technical documentation as if preparing a report for a client.
 
-**1. Which cloud infrastructure component do you think is the most important? Why?**
+## Objectives
+- Explain the major components of cloud infrastructure.
+- Investigate the hardware and software resources available in a Linux environment.
+- Differentiate compute, storage, networking, and identity resources.
+- Interpret the relationship between cloud infrastructure components.
+- Create professional technical documentation using Markdown.
+- Continue building a structured GitHub Cloud Computing Portfolio.
 
-I believe networking is the most important component, because without it, none of the other resources — compute, storage, or identity — can be accessed or used by anyone outside the server itself. A compute instance with powerful processing and a storage disk full of data is useless if it cannot be reached over a network. Networking is what turns isolated resources into an actual, usable cloud service.
+## Cloud Infrastructure Components
+- **Compute** — the virtual machine (single vCPU, Intel Xeon E312xx under KVM) that runs the OS and processes.
+- **Storage** — the virtual disks (`/dev/vda1`, `/dev/vda15`, `/dev/vda16`) that persist data.
+- **Networking** — the interfaces (`enp1s0`, `docker0`, `lo`) that connect the instance to other systems.
+- **Operating System** — Ubuntu 24.04.4 LTS, managing all of the above.
 
-**2. How does Linux support cloud computing?**
+Full details are documented in `infrastructure-report.md` and `cloud-components.md`.
 
-Linux is the backbone of most cloud infrastructure because it is open-source, lightweight, and highly customizable, which makes it ideal for running on virtual machines at scale. Nearly every major cloud provider offers Linux-based images as their default or most common compute option, and tools like containers (e.g. Docker) and orchestration platforms (e.g. Kubernetes) were built with Linux at their core. Its command-line tools also make it easy to automate infrastructure tasks, which is essential for cloud environments that need to scale quickly.
+## Tools Used
+- KillerCoda Playground (Linux terminal environment)
+- Git and GitHub (version control and portfolio hosting)
+- Markdown (technical documentation)
+- Draw.io (cloud architecture diagram)
 
-**3. Why is technical documentation important before deploying infrastructure?**
+## Linux Commands Executed
+```
+cat /etc/os-release
+uname -r
+lscpu
+nproc
+hostname
+ip a
+hostname -I
+free -h
+df -h
+mount | grep -E "^/dev"
+```
 
-Technical documentation ensures that decisions made during the planning phase are recorded, justified, and repeatable. Before deploying real servers, a company needs a clear record of what resources are needed, how they relate to each other, and why specific choices were made — this prevents costly mistakes and miscommunication among engineers. Documentation also becomes a reference point for troubleshooting, onboarding new team members, and auditing the system later on.
+## Skills Learned
+- Investigating a Linux server's hardware and software specifications from the command line.
+- Differentiating compute, storage, and networking resources in a real environment.
+- Comparing equivalent services across AWS, Microsoft Azure, and Google Cloud Platform.
+- Writing structured technical documentation using Markdown.
+- Resolving Git conflicts and pushing organized commits to a GitHub portfolio.
 
-**4. What new skills did you learn during this laboratory activity?**
-
-I learned how to investigate a Linux server's specifications directly from the terminal using commands like `lscpu`, `free -h`, and `ip a`, and how to interpret that output to understand compute, storage, and network resources. I also learned how to compare cloud providers' services by researching official documentation, and how to properly structure a GitHub repository with organized Markdown files. On the Git side, I learned how to resolve push conflicts that come from mismatched local and remote repository histories.
-
-**5. How has your GitHub portfolio improved after completing this mission?**
-
-My GitHub portfolio now includes a second, more advanced laboratory folder that demonstrates real infrastructure investigation skills, not just conceptual knowledge. It shows a clear progression from the first activity to this one, with organized files, meaningful commit messages, and evidence (screenshots and diagrams) backing up every claim made in the documentation. This makes the portfolio look more like the work of someone who has hands-on experience with cloud environments, rather than just theoretical understanding.
+## Challenges Encountered
+Initial `git push` attempts were rejected because the local repository's history didn't match the remote (since some files were created directly through GitHub's web interface). This was resolved by configuring git identity and pulling remote changes before pushing again. Reading detailed terminal output (like `lscpu`) also required care to correctly extract accurate CPU and virtualization details.
