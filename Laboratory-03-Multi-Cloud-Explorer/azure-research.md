@@ -27,5 +27,6 @@ The *Azure Portal* is the primary web-based interface for managing Azure resourc
 - Business intelligence and analytics through Power BI and Azure Synapse Analytics.
 - Identity and access management for organizations with Microsoft 365 subscriptions.
 
-  ![Uploading azure-homepage.png…]()
+  <img width="1366" height="641" alt="azure-homepage" src="https://github.com/user-attachments/assets/f5b9a880-988e-4803-969e-72ed90a18c96" />
+
 
