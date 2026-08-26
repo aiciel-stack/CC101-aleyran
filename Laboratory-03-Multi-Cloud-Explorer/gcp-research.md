@@ -26,3 +26,6 @@ The *Google Cloud Console* is the web-based interface for managing GCP resources
 - Deploying containerized, microservices-based applications with Kubernetes (GKE).
 - High-performance computing workloads that benefit from Google's global network.
 - Startups and tech-forward companies looking for modern, developer-friendly cloud tools.
+
+<img width="1365" height="644" alt="gcp-homepage" src="https://github.com/user-attachments/assets/a52d5930-12b5-4621-b303-cb5c0b326750" />
+
