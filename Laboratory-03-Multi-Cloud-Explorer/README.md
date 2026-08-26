@@ -12,3 +12,5 @@ If this Linux server were migrated to the cloud, it could be hosted using the fo
 - *GCP:* Compute Engine — a custom or predefined machine type matching the vCPU and RAM specs would run this server's workload in GCP.
 
 All three platforms also offer managed disk/storage options (Amazon EBS, Azure Managed Disks, Google Persistent Disk) to match the server's disk space requirements.
+
+<img width="305" height="492" alt="killercoda-terminal" src="https://github.com/user-attachments/assets/e062edc3-546c-4f0a-b9e1-f06dbbcc74fa" />
