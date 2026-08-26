@@ -28,3 +28,5 @@ Google Cloud Platform is the strongest in both areas. Google created Kubernetes 
 
 *4. Which cloud platform would you personally choose and why?*
 
+I would personally choose Google Cloud Platform (GCP) because of its strong balance between affordability and cutting-edge technology, especially in AI/ML and Kubernetes, areas I'm interested in developing skills in. Its console and documentation are also known for being clean and beginner-friendly compared to AWS's steeper learning curve. Since my long-term interest leans toward data and AI-driven applications, GCP's tooling aligns more closely with where I want to grow as a future cloud practitioner.
+
