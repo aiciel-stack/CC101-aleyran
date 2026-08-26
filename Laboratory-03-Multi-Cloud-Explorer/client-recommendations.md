@@ -45,3 +45,14 @@
 - *Amazon EC2 with Auto Scaling* – to automatically handle traffic spikes during sales events.
 - *Amazon RDS* – for managing product, order, and customer databases reliably.
 - *Amazon CloudFront* – to deliver content quickly to customers across the globe.
+
+## Multi-Cloud Decision Matrix Table
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | Google Cloud Platform (GCP) | Offers cost-effective, developer-friendly tools and generous free credits, ideal for lean teams that need to scale quickly without heavy upfront investment. |
+| Enterprise Organization | Amazon Web Services (AWS) | Provides the broadest service catalog, proven reliability at scale, and the largest ecosystem of enterprise support and integrations. |
+| Microsoft Environment | Microsoft Azure | Integrates natively with Windows Server, Active Directory, and Microsoft 365, minimizing friction for organizations already invested in Microsoft technologies. |
+| AI / Machine Learning | Google Cloud Platform (GCP) | Google's own research background, TPUs, and Vertex AI give GCP an edge in building and training machine learning models. |
+| Kubernetes Deployment | Google Cloud Platform (GCP) | As the original creator of Kubernetes, Google offers the most mature managed Kubernetes service (GKE) with deep native support. |
+| Global Web Application | Amazon Web Services (AWS) | AWS's extensive global network of regions and availability zones ensures low latency, high availability, and reliable auto-scaling for worldwide traffic. |
