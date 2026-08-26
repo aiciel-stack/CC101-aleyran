@@ -26,3 +26,6 @@ The *AWS Management Console* is the web-based interface used to access, configur
 - Machine learning and AI model training/deployment (e.g., Amazon SageMaker).
 - Disaster recovery and backup solutions for on-premises infrastructure.
 - Running enterprise workloads that require global reach and high availability.
+
+<img width="1366" height="626" alt="aws-homepage" src="https://github.com/user-attachments/assets/54b9dfb7-3d62-4549-833d-03b8e986cf11" />
+
