@@ -9,7 +9,7 @@
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
 -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
-minio/minio server /data --console-address ":9001"
+quay.io/minio/minio server /data --console-address ":9001"
 ```
 
 ## Command Breakdown
@@ -17,13 +17,13 @@ minio/minio server /data --console-address ":9001"
 - `-p 9000:9000` – Maps the S3 API port from the host to the container.
 - `-p 9001:9001` – Maps the web console port from the host to the container.
 - `--name minio-server` – Names the container so it is easy to manage.
-- `minio/minio` – The official MinIO image from Docker Hub.
+- `quay.io/minio/minio` – The official MinIO image from Docker Hub.
 - `server /data` – Starts MinIO and stores its data in the /data directory.
 - `--console-address ":9001"` – Sets the web console to listen on port 9001.
 
 ## Environment Variables (-e flags)
-- `MINIO_ROOT_USER=cloudadmin` – Sets the admin username for logging in.
-- `MINIO_ROOT_PASSWORD=CloudNova2026!` – Sets the admin password for logging in.
+- `MINIO_ROOT_USER=ihselcloud` – Sets the admin username for logging in.
+- `MINIO_ROOT_PASSWORD=Ihseleyran01!` – Sets the admin password for logging in.
 
 Environment variables pass configuration into the container when it starts, so the server is set up without editing any files inside it.
 
