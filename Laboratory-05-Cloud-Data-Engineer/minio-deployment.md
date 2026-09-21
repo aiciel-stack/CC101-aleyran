@@ -35,6 +35,6 @@ Environment variables pass configuration into the container when it starts, so t
 - Uploaded a test file to confirm the storage works.
 
 ## Evidence
-![MinIO deployed](<img width="952" height="357" alt="minio-deployed" src="https://github.com/user-attachments/assets/280aea3c-4380-45bd-b21c-064a849015c6" />
-)
+![MinIO deployed]( <img width="952" height="357" alt="minio-deployed" src="https://github.com/user-attachments/assets/da057a3d-ead5-472e-b63f-90af2d6102df" /> )
+
 ![Bucket and upload](screenshots/minio-bucket-upload.png)
