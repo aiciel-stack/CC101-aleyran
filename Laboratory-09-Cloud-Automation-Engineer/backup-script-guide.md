@@ -37,7 +37,12 @@ Together, these fields mean the script runs every single day at exactly 2:00 AM.
 
 ## Evidence
 #Script execution
+
 <img width="487" height="228" alt="script-execution" src="https://github.com/user-attachments/assets/decc6aaa-54e2-4d2b-b2cf-0bcf457ddcbd" />
 
 #Cron schedule
+
 <img width="625" height="508" alt="cron-schedule" src="https://github.com/user-attachments/assets/c9ce16bb-df4b-4333-a21d-b8adc31737d4" />
+
+
+
